@@ -23,7 +23,7 @@ public class StackFunctions {
 
         while (loopCondition) {
 
-            System.out.println("Option:\t 1: Push\t 2: Pop\t 3. Show Stack\t 4.Exit");
+            System.out.println("Option:\t 1. Push\t 2. Pop\t 3.Peek Top\t 4. Show Stack\t 99. Exit");
             int choice = sc.nextInt();
 
             switch (choice) {
@@ -35,14 +35,16 @@ public class StackFunctions {
 
                     break;
                 }
-                case 2: {
+                case 2:
                     stackDS.pop();
                     break;
-                }
                 case 3:
-                    stackDS.showStack();
+                    stackDS.peek();
                     break;
                 case 4:
+                    stackDS.showStack();
+                    break;
+                case 99:
                     System.out.println("Exiting...");
                     loopCondition = false;
                     break;

@@ -45,6 +45,15 @@ public class StackDS {
     }
 
 
+    public void peek() {
+
+        if (top == -1)
+            System.out.println("Stack Empty");
+        else
+            System.out.println(this.stack[top]);
+    }
+
+
     public void showStack() {
 
         if (top == -1) {
