@@ -13,11 +13,11 @@ public class DriverMain {
         switch (dsChoice) {
 
             case 1:
-                new StackFunctions();
+                new StackOperations();
                 break;
 
             case 2:
-                new QueueFunctions();
+                new QueueOperations();
                 break;
 
             default:

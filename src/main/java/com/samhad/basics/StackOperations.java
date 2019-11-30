@@ -2,10 +2,10 @@ package com.samhad.basics;
 
 import java.util.Scanner;
 
-public class StackFunctions {
+public class StackOperations {
 
 
-    public StackFunctions() {
+    public StackOperations() {
 
         boolean loopCondition = true;
         Scanner sc = new Scanner(System.in);
